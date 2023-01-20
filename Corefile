@@ -1,0 +1,7 @@
+. {
+   forward . 8.8.8.8 4.2.2.2
+}
+
+cf.local {
+   file zone/cf.local
+}
